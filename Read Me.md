@@ -37,15 +37,20 @@ Dialog DLL:
 ###General
 
 JLink/JTrace RAM for Algorithm
-|Address:	|	0x 2000 5968 		|
-|Size:		|	0x 0000 A698		|
+|Field		|Value				|
+|-----------|-------------------|
+|Address:	|	0x 2000 5968	|
+|Size:		|	0x 0000 A698	|
 
 UlinkME2 RAM for Algorithm
+|Field		|Value				|
+|-----------|-------------------|
 |Address:	|	0x 2000 7000	|
 |Size:		|	0x 0003 9000	|
 
 ROM Allocation													
-|			| Optimisation Level	| IROM Address	| Size 		|
+| Mode		| Optimisation Level	| IROM Address	| Size 		|
+|-----------|-----------------------|---------------|-----------|
 |Debugging	| -O0 					| 0xD1000		| 0xF000	|
 |Deployed	| -O3 					| 0xF1000		| 0xD000	|
 
