@@ -18,8 +18,6 @@
 |J-Link				|			|Use the command** `jlink --version` **in command prompt to view current version|		
 
 
-
-
 **The following details can be found after building the project and right clicking on main in the project tree, open build log**
 
 |Field				|Version	|Comment	|
@@ -71,7 +69,7 @@ Currently does not support DFU Button entry mode. Vulcan Reedswitch topology cha
 
 
 ### **Programming Bootloader**
-Prerequisites:
+Prerequisites
 	- nRF Util
 	- nRF JProg
 	- JLink debugger
@@ -82,7 +80,7 @@ Prerequisites:
 ### Generating and executing DFU Package
 Refer to Technical Operating Proceedure no.15 (TOP015 - nRF OTA Device firmware Update)
 
-Required files:
+Required files
 	- ICE_DFU_Key.pem
 	- ICE_Bootloader.hex may wish to rename to `<projectname>_Bootloader.hex`
 		
