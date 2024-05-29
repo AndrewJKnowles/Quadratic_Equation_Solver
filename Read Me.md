@@ -70,17 +70,17 @@ Currently does not support DFU Button entry mode. Vulcan Reedswitch topology cha
 
 ### **Programming Bootloader**
 Prerequisites
-	- nRF Util
-	- nRF JProg
-	- JLink debugger
-	- BLE Scanner
-	- Ensure the files indicated below are accessible by nRF command line utilities
+- nRF Util
+- nRF JProg
+- JLink debugger
+- BLE Scanner
+- Ensure the files indicated below are accessible by nRF command line utilities
 	
 
 ### Generating and executing DFU Package
 Refer to Technical Operating Proceedure no.15 (TOP015 - nRF OTA Device firmware Update)
 
 Required files
-	- ICE_DFU_Key.pem
-	- ICE_Bootloader.hex may wish to rename to `<projectname>_Bootloader.hex`
+- ICE_DFU_Key.pem
+- ICE_Bootloader.hex may wish to rename to `<projectname>_Bootloader.hex`
 		
