@@ -1,4 +1,4 @@
-#Project Summary
+# Project Summary
 
 Project:			
 Date Created: 		
@@ -19,6 +19,7 @@ SoftDevice:
 J-Link:				
 
 **The following details can be found after building the project and right clicking on main in the project tree, open build log**
+
 Tool Versions:
 Toolchain:       
 Toolchain Path:  
@@ -33,8 +34,8 @@ Target DLL:
 Dialog DLL:      
 
 
-##Notes
-###General
+## Notes
+### General
 
 JLink/JTrace RAM for Algorithm
 |Field		|Value				|
@@ -57,11 +58,11 @@ ROM Allocation
 Additional compiler warnings with the prefix "ICE WARNING: <message>" have been included as functionality checks
 
 
-###BootLoader Limitations
+### BootLoader Limitations
 Currently does not support DFU Button entry mode. Vulcan Reedswitch topology change required.
 
 
-###Programming Bootloader
+### Programming Bootloader
 Prerequisites:
 	- nRF Util
 	- nRF JProg
@@ -70,11 +71,10 @@ Prerequisites:
 	- Ensure the files indicated below are accessible by nRF command line utilities
 	
 
-###Generating and executing DFU Package
+### Generating and executing DFU Package
 Refer to Technical Operating Proceedure no.15 (TOP015 - nRF OTA Device firmware Update)
 
 Required files:
 	- ICE_DFU_Key.pem
 	- ICE_Bootloader.hex may wish to rename to `<projectname>_Bootloader.hex`
-		
 		
